@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    margin: 0%;
+}
+
+.grid-container{
+    margin: 0px auto;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-column-gap: 10px;
+}
+
+.header{
+    grid-column: 1/8;
+    color: white;
+    font: bold;
+    font-size: 35px;
+    border-bottom: solid blue;
+    height: 40px;
+    display: grid;
+}
