@@ -93,6 +93,12 @@ body{
   
   .dropdown:hover .dropbtn {background-color: black;}
 
+
+
+.text{
+    color: white;
+}
+
 a:link{
     color: white;
 }
