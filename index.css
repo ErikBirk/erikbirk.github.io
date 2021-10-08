@@ -19,6 +19,7 @@ body{
     display: grid;
     background-color: black;
     border-bottom:solid blue ;
+    height: 100px;
 }
 
 .H1{
@@ -26,7 +27,7 @@ body{
     grid-row: 1;
     font: bold;
     font-size: 50px;
-    text-align: l;
+    text-align: left;
     height: 100px; 
     display: grid;
     color: white;
@@ -66,6 +67,7 @@ body{
     padding-left: 16px;
     padding-right: 16px;
     border-right: solid blue;
+    height: 100px;
 
   }
   
@@ -97,6 +99,23 @@ body{
 
 .text{
     color: white;
+    grid-column: 2/5;
+    grid-row: 2;
+    display: grid;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    border-left: solid blue;
+    border-right: solid blue;
+}
+.text2{
+    color: white;
+    grid-column: 2/5;
+    border-bottom: blue solid;
+    border-left: solid blue;
+    border-right: blue solid;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 a:link{
